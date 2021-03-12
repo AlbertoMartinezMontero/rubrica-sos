@@ -14,7 +14,7 @@ import { ServiceComponentService } from '../service-component.service';
 export class TabellaRubricaComponent implements OnInit {
   
   contatto: Contatto = new Contatto();
-  listaContatti: Contatto[] = [];
+  listaContatti: Contatto[];
 
   constructor(private http: HttpClient) { this.aggiornaRubrica(); }
 
